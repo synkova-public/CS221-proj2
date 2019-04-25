@@ -1,0 +1,54 @@
+BEGINNING TESTS FOR PART 1A
+*** TESTING INSERT ***
+adding item1,  with number 52 to heap
+Top of heap is: text_item{"item1",52}
+adding item2,  with number 31 to heap
+Top of heap is: text_item{"item1",52}
+adding item3,  with number 57 to heap
+Top of heap is: text_item{"item3",57}
+adding item4,  with number 16 to heap
+Top of heap is: text_item{"item3",57}
+adding item5,  with number 22 to heap
+Top of heap is: text_item{"item3",57}
+  ------------ MY TESTS ------------
+Top of the heap is: text_item{"item",100}
+Top of the heap is: text_item{"item",25}
+Top of the heap is: text_item{"item",30}
+
+BEGINNING TESTS FOR PART 1B
+*** TESTING DELETEMAX ***
+Item returned from heap delete: text_item{"item3",57}
+Top of heap is now: text_item{"item1",52}
+  ------------ MY TESTS ------------
+Top of the heap now is: text_item{"item",10}
+Top of the heap now is: text_item{"item",15}
+
+BEGINNING TESTS FOR PART 2
+Found: difficult in the input file 39 time(s).
+  ------------ MY TEST ------------
+Expected frequency of 'court': 4
+Found frequency of 'court': 4
+Expected freqiency of 'apple': 0
+Found frequency of 'apple': 0
+
+BEGINNING TESTS FOR PART 3
+*** Top 5 most frequent words: ***
+Most frequent text item: text_item{"the",40506}
+Most frequent text item: text_item{"of",19652}
+Most frequent text item: text_item{"and",14786}
+Most frequent text item: text_item{"a",14315}
+Most frequent text item: text_item{"to",13761}
+
+*** Top 5 most frequent words with at least 10 letters ***
+Most frequent text item with at least 10 letters: text_item{"th?nardier",520}
+Most frequent text item with at least 10 letters: text_item{"everything",304}
+Most frequent text item with at least 10 letters: text_item{"fauchelevent",291}
+Most frequent text item with at least 10 letters: text_item{"themselves",248}
+Most frequent text item with at least 10 letters: text_item{"gillenormand",233}
+
+*** Top 5 most frequent words that begin with f ***
+Most frequent text item that starts with f: text_item{"for",2939}
+Most frequent text item that starts with f: text_item{"from",2412}
+Most frequent text item that starts with f: text_item{"father",594}
+Most frequent text item that starts with f: text_item{"first",572}
+Most frequent text item that starts with f: text_item{"four",369}
