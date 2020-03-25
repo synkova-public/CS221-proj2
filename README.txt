@@ -1,6 +1,6 @@
 Coding Project #2
-Name: Aiden Synkova
-Course; CPSC 221 2016W2
+Name: Phoenix Synkova
+Course: CPSC 221 2016W2
 
 *************************************************************************************
 Parts implemented by me: max_heap.cpp, string_bst.cpp, several test cases in main.cpp
